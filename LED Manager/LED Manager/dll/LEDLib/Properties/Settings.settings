@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsFile CurrentProfile="(Default)" GeneratedClassNamespace="LogoLib.Properties" GeneratedClassName="Settings" xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings>
+    <Setting Name="Autostart" Type="System.Boolean" Scope="User" Roaming="false">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="ClevoModel" Type="System.Int32" Scope="User" Roaming="false">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="KBbacklight" Type="System.Int32" Scope="User" Roaming="false">
+      <Value Profile="(Default)">4</Value>
+    </Setting>
+    <Setting Name="KBblueL" Type="System.Int32" Scope="User" Roaming="false">
+      <Value Profile="(Default)">255</Value>
+    </Setting>
+    <Setting Name="KBblueM" Type="System.Int32" Scope="User" Roaming="false">
+      <Value Profile="(Default)">255</Value>
+    </Setting>
+    <Setting Name="KBblueR" Type="System.Int32" Scope="User" Roaming="false">
+      <Value Profile="(Default)">255</Value>
+    </Setting>
+    <Setting Name="KBeffect" Type="System.Int32" Scope="User" Roaming="false">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="KBenabledLED" Type="System.Boolean" Scope="User" Roaming="false">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="KBgreenL" Type="System.Int32" Scope="User" Roaming="false">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="KBgreenM" Type="System.Int32" Scope="User" Roaming="false">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="KBgreenR" Type="System.Int32" Scope="User" Roaming="false">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="KBredL" Type="System.Int32" Scope="User" Roaming="false">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="KBredM" Type="System.Int32" Scope="User" Roaming="false">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="KBredR" Type="System.Int32" Scope="User" Roaming="false">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="KBtimeout" Type="System.Int32" Scope="User" Roaming="false">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Logo" Type="System.Int32" Scope="User" Roaming="false">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="LogoB" Type="System.Int32" Scope="User" Roaming="false">
+      <Value Profile="(Default)">255</Value>
+    </Setting>
+    <Setting Name="LogoG" Type="System.Int32" Scope="User" Roaming="false">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="LogoR" Type="System.Int32" Scope="User" Roaming="false">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="LogoRGB" Type="System.Boolean" Scope="User" Roaming="false">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="ManageKB" Type="System.Boolean" Scope="User" Roaming="false">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="Silent" Type="System.Boolean" Scope="User" Roaming="false">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

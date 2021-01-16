@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 4.3
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LEDLib", "LEDLib\LEDLib.csproj", "{598DBB78-800A-474A-8EFF-A1F6CE7D826E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{598DBB78-800A-474A-8EFF-A1F6CE7D826E}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{598DBB78-800A-474A-8EFF-A1F6CE7D826E}.Debug|Any CPU.Build.0 = Debug|x64
+		{598DBB78-800A-474A-8EFF-A1F6CE7D826E}.Debug|Mixed Platforms.ActiveCfg = Debug|x64
+		{598DBB78-800A-474A-8EFF-A1F6CE7D826E}.Debug|Mixed Platforms.Build.0 = Debug|x64
+		{598DBB78-800A-474A-8EFF-A1F6CE7D826E}.Debug|x64.ActiveCfg = Debug|x64
+		{598DBB78-800A-474A-8EFF-A1F6CE7D826E}.Debug|x64.Build.0 = Debug|x64
+		{598DBB78-800A-474A-8EFF-A1F6CE7D826E}.Release|Any CPU.ActiveCfg = Release|x64
+		{598DBB78-800A-474A-8EFF-A1F6CE7D826E}.Release|Any CPU.Build.0 = Release|x64
+		{598DBB78-800A-474A-8EFF-A1F6CE7D826E}.Release|Mixed Platforms.ActiveCfg = Release|x64
+		{598DBB78-800A-474A-8EFF-A1F6CE7D826E}.Release|Mixed Platforms.Build.0 = Release|x64
+		{598DBB78-800A-474A-8EFF-A1F6CE7D826E}.Release|x64.ActiveCfg = Release|x64
+		{598DBB78-800A-474A-8EFF-A1F6CE7D826E}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
