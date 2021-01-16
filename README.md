@@ -1,4 +1,4 @@
-LED manager - for all Clevo Laptops (all resellers - xmg, sager, eurocom, etc) with 3-zoned keyboards with LED backlight.
+LED manager - for Clevo Laptops (all resellers - xmg, sager, eurocom, etc) with 3-zoned keyboards with LED backlight - P775XX, P870XX, may or may not work on similar laptops.
 
 This is a small standalone tray utility for setting up and saving/restoring LED backlight settings. 
 No any "Clevo Control Center" or "Obsidian" software is required for it to work independently with your KB  LED settings.
