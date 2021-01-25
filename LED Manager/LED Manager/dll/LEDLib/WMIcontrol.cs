@@ -53,11 +53,11 @@ namespace LEDLib
 		{
 			try
 			{
-				RegistryKey registryKey = Registry.LocalMachine.OpenSubKey("SYSTEM\\CurrentControlSet\\Services\\WmiAcpi\\", true);
+				RegistryKey registryKey = Registry.LocalMachine.OpenSubKey(@"SYSTEM\\CurrentControlSet\\Services\\WmiAcpi\\", true);
 				string a = registryKey.GetValue("MofImagePath", "").ToString();
 				if (a == "" || a != "syswow64\\clevomof.dll")
 				{
-					registryKey.SetValue("MofImagePath", "syswow64\\clevomof.dll", RegistryValueKind.String);
+					registryKey.SetValue(@"MofImagePath", "syswow64\\clevomof.dll", RegistryValueKind.String);
 					MessageBox.Show("You didn't have the necessary registry record for clevomof.dll in SYSTEM\\CurrentControlSet\\Services\\WmiAcpi\\. It was added automatically. PLEASE RESTART WINDOWS!","Registry record for Clevomof.dll successfully added to system.",MessageBoxButtons.OK, MessageBoxIcon.Warning);													
 
 				}
@@ -65,7 +65,7 @@ namespace LEDLib
 			}
 			catch
 			{
-				MessageBox.Show("You dont't have the necessary registry record for clevomof.dll in SYSTEM\\CurrentControlSet\\Services\\WmiAcpi\\. Program failed to write registry, check admin privelege.", "Failed to write tegistry", MessageBoxButtons.OK, MessageBoxIcon.Error);
+				
 			}
 		}
 			

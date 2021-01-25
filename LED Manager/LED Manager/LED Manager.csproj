@@ -12,7 +12,6 @@
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60DC8134-EBA5-43B8-BCC9-BB4BC16C2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <ApplicationIcon>LED Manager.ico</ApplicationIcon>
-    <NoWin32Manifest>False</NoWin32Manifest>
     <SignAssembly>False</SignAssembly>
     <DelaySign>False</DelaySign>
     <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
@@ -54,6 +53,9 @@
     <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
     <BaseIntermediateOutputPath>obj\</BaseIntermediateOutputPath>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="LEDLib">
       <HintPath>dll\LEDLib\bin\Debug\LEDLib.dll</HintPath>
@@ -82,7 +84,9 @@
       <DependentUpon>KBWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="OsdForm.cs" />
+    <Compile Include="OsdForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="OsdForm.Designer.cs">
       <DependentUpon>OsdForm.cs</DependentUpon>
     </Compile>
@@ -104,6 +108,9 @@
   </ItemGroup>
   <ItemGroup>
     <Page Include="KBWindow.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.manifest" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

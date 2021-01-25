@@ -43,15 +43,15 @@ namespace LEDLib
 						try{
 	
 						RegistryKey rk = Registry.CurrentUser.OpenSubKey("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run", true);
-						string value = rk.GetValue("Cover LED Tray Tool").ToString();
+						string value = rk.GetValue("LEDmanager").ToString();
 		
 								if (_execPath==value) {
 									return	this._settings.Autostart;		
 								}
 								else {
 									System.Diagnostics.Debug.WriteLine("path not the same, rewriting");
-									rk.DeleteValue("Cover LED Tray Tool",false);
-									rk.SetValue("Cover LED Tray Tool",_execPath);
+									rk.DeleteValue("LEDmanager", false);
+									rk.SetValue("LEDmanager", _execPath);
 									return	this._settings.Autostart;
 								}
 						
@@ -78,7 +78,7 @@ namespace LEDLib
 				try{
 								
 					RegistryKey rk = Registry.CurrentUser.OpenSubKey("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run", true);
-					rk.DeleteValue("Cover LED Tray Tool",false);
+					rk.DeleteValue("LEDmanager",false);
 					return true;
 					} catch (Exception) {
 						return false;
@@ -90,7 +90,7 @@ namespace LEDLib
 				try{
 
 					RegistryKey rk = Registry.CurrentUser.OpenSubKey("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run", true);
-					rk.SetValue("Cover LED Tray Tool",_execPath);
+					rk.SetValue("LEDmanager", _execPath);
 					return true;
 					} catch (Exception) {
 						return false;
