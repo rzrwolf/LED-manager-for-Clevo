@@ -42,7 +42,7 @@ namespace LEDLib
 					_execPath = System.Reflection.Assembly.GetEntryAssembly().Location;
 						try{
 	
-						RegistryKey rk = Registry.CurrentUser.OpenSubKey("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run", true);
+						RegistryKey rk = Registry.LocalMachine.OpenSubKey(@"SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Run", true);
 						string value = rk.GetValue("LEDmanager").ToString();
 		
 								if (_execPath==value) {
@@ -77,7 +77,7 @@ namespace LEDLib
 			if(autostart==false){
 				try{
 								
-					RegistryKey rk = Registry.CurrentUser.OpenSubKey("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run", true);
+					RegistryKey rk = Registry.LocalMachine.OpenSubKey(@"SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Run", true);
 					rk.DeleteValue("LEDmanager",false);
 					return true;
 					} catch (Exception) {
@@ -89,7 +89,7 @@ namespace LEDLib
 
 				try{
 
-					RegistryKey rk = Registry.CurrentUser.OpenSubKey("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run", true);
+					RegistryKey rk = Registry.LocalMachine.OpenSubKey(@"SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Run", true);
 					rk.SetValue("LEDmanager", _execPath);
 					return true;
 					} catch (Exception) {

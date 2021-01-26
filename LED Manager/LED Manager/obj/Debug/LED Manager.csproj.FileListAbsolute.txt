@@ -14,3 +14,4 @@ C:\Users\user\source\repos\LED-manager-for-Clevo\LED Manager\LED Manager\obj\Deb
 C:\Users\user\source\repos\LED-manager-for-Clevo\LED Manager\LED Manager\obj\Debug\LED Manager.csproj.CopyComplete
 C:\Users\user\source\repos\LED-manager-for-Clevo\LED Manager\LED Manager\obj\Debug\LED Manager.exe
 C:\Users\user\source\repos\LED-manager-for-Clevo\LED Manager\LED Manager\obj\Debug\LED Manager.pdb
+C:\Users\user\source\repos\LED-manager-for-Clevo\LED Manager\LED Manager\obj\Debug\LED Manager.csprojAssemblyReference.cache
