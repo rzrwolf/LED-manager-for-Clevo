@@ -1,0 +1,16 @@
+C:\Users\user\source\repos\LED-manager-for-Clevo\LED Manager\LED Manager\bin\Debug\LED Manager.exe
+C:\Users\user\source\repos\LED-manager-for-Clevo\LED Manager\LED Manager\bin\Debug\LED Manager.pdb
+C:\Users\user\source\repos\LED-manager-for-Clevo\LED Manager\LED Manager\bin\Debug\LEDLib.dll
+C:\Users\user\source\repos\LED-manager-for-Clevo\LED Manager\LED Manager\bin\Debug\LEDLib.pdb
+C:\Users\user\source\repos\LED-manager-for-Clevo\LED Manager\LED Manager\bin\Debug\LEDLib.dll.config
+C:\Users\user\source\repos\LED-manager-for-Clevo\LED Manager\LED Manager\obj\Debug\KBWindow.baml
+C:\Users\user\source\repos\LED-manager-for-Clevo\LED Manager\LED Manager\obj\Debug\KBWindow.g.cs
+C:\Users\user\source\repos\LED-manager-for-Clevo\LED Manager\LED Manager\obj\Debug\App.g.cs
+C:\Users\user\source\repos\LED-manager-for-Clevo\LED Manager\LED Manager\obj\Debug\LED Manager_MarkupCompile.cache
+C:\Users\user\source\repos\LED-manager-for-Clevo\LED Manager\LED Manager\obj\Debug\LED Manager_MarkupCompile.lref
+C:\Users\user\source\repos\LED-manager-for-Clevo\LED Manager\LED Manager\obj\Debug\App.baml
+C:\Users\user\source\repos\LED-manager-for-Clevo\LED Manager\LED Manager\obj\Debug\LED Manager.g.resources
+C:\Users\user\source\repos\LED-manager-for-Clevo\LED Manager\LED Manager\obj\Debug\LED Manager.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\LED-manager-for-Clevo\LED Manager\LED Manager\obj\Debug\LED Manager.csproj.CopyComplete
+C:\Users\user\source\repos\LED-manager-for-Clevo\LED Manager\LED Manager\obj\Debug\LED Manager.exe
+C:\Users\user\source\repos\LED-manager-for-Clevo\LED Manager\LED Manager\obj\Debug\LED Manager.pdb

@@ -1,0 +1,7 @@
+C:\Users\user\Source\Repos\LED-manager-for-Clevo\LED Manager\LED Manager\dll\LEDLib\bin\Debug\LEDLib.dll.config
+C:\Users\user\Source\Repos\LED-manager-for-Clevo\LED Manager\LED Manager\dll\LEDLib\bin\Debug\LEDLib.dll
+C:\Users\user\Source\Repos\LED-manager-for-Clevo\LED Manager\LED Manager\dll\LEDLib\bin\Debug\LEDLib.pdb
+C:\Users\user\Source\Repos\LED-manager-for-Clevo\LED Manager\LED Manager\dll\LEDLib\obj\Debug\LEDLib.csprojAssemblyReference.cache
+C:\Users\user\Source\Repos\LED-manager-for-Clevo\LED Manager\LED Manager\dll\LEDLib\obj\Debug\LEDLib.csproj.CoreCompileInputs.cache
+C:\Users\user\Source\Repos\LED-manager-for-Clevo\LED Manager\LED Manager\dll\LEDLib\obj\Debug\LEDLib.dll
+C:\Users\user\Source\Repos\LED-manager-for-Clevo\LED Manager\LED Manager\dll\LEDLib\obj\Debug\LEDLib.pdb
