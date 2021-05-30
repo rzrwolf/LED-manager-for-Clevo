@@ -57,7 +57,7 @@ namespace Wpf {
 			if (_dictHotKeyToCalBackProc.TryGetValue(Id, out hotKey)) {
 				UnregisterHotKey(IntPtr.Zero, Id); 
 			}
-			_dictHotKeyToCalBackProc.Remove(Id); 
+			_dictHotKeyToCalBackProc.Clear() ; 
 		}
 
 		private static void ComponentDispatcherThreadFilterMessage(ref MSG msg, ref bool handled) { 
